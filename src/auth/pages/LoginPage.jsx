@@ -13,10 +13,10 @@ export const LoginPage = () => {
 
     return (
         <div>
-            <h1>Login</h1>
+            <h1 className='m-3'>Login</h1>
             <hr />
 
-            <button className="btn btn-primary"
+            <button className="btn btn-primary m-3"
                 onClick={onLogin}
             >
                 Login
