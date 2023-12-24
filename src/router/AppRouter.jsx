@@ -6,7 +6,6 @@ import { PrivateRoute } from '../heroes/routes/PrivateRoute';
 import { PublicRoute } from '../heroes/routes/PublicRoute';
 
 
-
 export const AppRouter = () => {
     return (
         <>
