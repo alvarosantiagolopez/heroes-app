@@ -36,7 +36,7 @@ export const HeroPage = () => {
                     <li className="list-group-item"><b>First appearance:</b> {hero.first_appearance}</li>
                 </ul>
 
-                <h5 className="mt-3">Chacarters</h5>
+                <h5 className="mt-3">Characters</h5>
                 <p>{hero.characters}</p>
 
                 <button
