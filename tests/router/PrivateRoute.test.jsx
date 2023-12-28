@@ -16,7 +16,7 @@ describe('Pruebas en <PrivateRoute/>', () => {
                 name: 'Alvaro',
                 id: 'ABC'
             }
-        }
+        };
 
         render(
             <AuthContext.Provider value={contextValue}>
@@ -27,7 +27,6 @@ describe('Pruebas en <PrivateRoute/>', () => {
                 </MemoryRouter>
             </AuthContext.Provider>
         );
-
 
         expect(screen.getByText('Ruta privada')).toBeTruthy();
         expect(localStorage.setItem).toHaveBeenCalledWith("lastPath", "/search?q=batman");
